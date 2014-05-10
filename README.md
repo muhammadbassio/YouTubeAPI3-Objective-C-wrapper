@@ -44,7 +44,7 @@ Check the demo project
 
 ##License
 
-The MIT License (MIT)
+MIT License
 
 ```
 Copyright (c) 2014 MuhammadBassio
