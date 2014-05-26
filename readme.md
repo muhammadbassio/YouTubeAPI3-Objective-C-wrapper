@@ -1,27 +1,15 @@
-//
-//  Prefix header
-//
-//  The contents of this file are implicitly included at the beginning of every source file.
-//
+YouTube API v3.0 parser for iOS
+===============================
 
-#import <Availability.h>
+A simple Objective-C wrapper for most of YouTube API v3.0 functions (including OAuth2.0 implementation).
+Designed to make it simple to integrate YouTube functionality within your iOS app.
 
-#ifndef __IPHONE_5_0
-#warning "This project uses features only available in iOS SDK 5.0 and later."
-#endif
+## Install
+Just drag "YTAPI3" directory to your Xcode project.
 
-#ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
-#endif
+Add the below to your ".pch" file
 
-
-#ifdef DEBUG
-#   define NSLog(...) NSLog(__VA_ARGS__)
-#else
-#   define NSLog(...)
-#endif
-
+```
 #define IsPad      (UI_USER_INTERFACE_IDIOM() != UIUserInterfaceIdiomPhone)
 
 #define UIColorFromRGBA(rgbValue, alphaValue) [UIColor colorWithRed:((CGFloat)((rgbValue & 0xFF0000) >> 16))/255.0 green:((CGFloat)((rgbValue & 0xFF00) >> 8))/255.0 blue:((CGFloat)(rgbValue & 0xFF))/255.0 alpha:alphaValue]
@@ -33,9 +21,10 @@
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
 
 
-static NSString *kMyClientID = @"___";
-static NSString *kMyClientSecret = @"___";
+static NSString *kMyClientID = @"YourClientID";
+static NSString *kMyClientSecret = @"YourClientSecret";
 static NSString *scope = @"https://www.googleapis.com/auth/youtube https://www.googleapis.com/auth/youtube.readonly https://www.googleapis.com/auth/youtubepartner https://www.googleapis.com/auth/youtubepartner-channel-audit https://www.googleapis.com/auth/youtube.upload";
-static NSString *apiKey = @"___";
+static NSString *apiKey = @"YourAPIKey";
 
+```
 

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MAB_GoogleOAuthTouchViewController.h"
+#import "MABYT3_APIRequest.h"
 
-@interface MABYT3_ViewController : UIViewController
-
+@interface MABYT3_ViewController : UIViewController <MAB_GoogleUserCredentialsDelegate>
+{
+    UIButton *si;
+    UIButton *so;
+}
 @end

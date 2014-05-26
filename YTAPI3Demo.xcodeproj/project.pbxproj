@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E55455A191975BB009A5FB5 /* MABYT3_APIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E554559191975BB009A5FB5 /* MABYT3_APIRequest.m */; };
 		8EB1306F191164D100FD4FFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB1306E191164D100FD4FFB /* Foundation.framework */; };
 		8EB13071191164D100FD4FFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB13070191164D100FD4FFB /* CoreGraphics.framework */; };
 		8EB13073191164D100FD4FFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB13072191164D100FD4FFB /* UIKit.framework */; };
@@ -21,6 +22,72 @@
 		8EB13090191164D100FD4FFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB13072191164D100FD4FFB /* UIKit.framework */; };
 		8EB13098191164D100FD4FFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB13096191164D100FD4FFB /* InfoPlist.strings */; };
 		8EB1309A191164D100FD4FFB /* YTAPI3DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB13099191164D100FD4FFB /* YTAPI3DemoTests.m */; };
+		8EB130AD1911659F00FD4FFB /* MAB_GoogleAccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130A81911659F00FD4FFB /* MAB_GoogleAccessToken.m */; };
+		8EB130AE1911659F00FD4FFB /* MAB_GoogleOAuthTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130AA1911659F00FD4FFB /* MAB_GoogleOAuthTouchViewController.m */; };
+		8EB130AF1911659F00FD4FFB /* MAB_GoogleUserCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130AC1911659F00FD4FFB /* MAB_GoogleUserCredentials.m */; };
+		8EB130BB1911692300FD4FFB /* MABYT3_Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130B81911692300FD4FFB /* MABYT3_Channel.m */; };
+		8EB130BC1911692300FD4FFB /* MABYT3_ChannelSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130BA1911692300FD4FFB /* MABYT3_ChannelSnippet.m */; };
+		8EB130C119116A2700FD4FFB /* MAB_GDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130BE19116A2700FD4FFB /* MAB_GDate.m */; };
+		8EB130C219116A2700FD4FFB /* MAB_GLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130C019116A2700FD4FFB /* MAB_GLink.m */; };
+		8EB130C519116A9800FD4FFB /* MABYT3_Thumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130C419116A9800FD4FFB /* MABYT3_Thumbnail.m */; };
+		8EB130C8191197E000FD4FFB /* MABYT3_ChannelContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130C7191197E000FD4FFB /* MABYT3_ChannelContentDetails.m */; };
+		8EB130CB1911991400FD4FFB /* MABYT3_ChannelStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130CA1911991400FD4FFB /* MABYT3_ChannelStatistics.m */; };
+		8EB130CE19126DB800FD4FFB /* MABYT3_ChannelStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130CD19126DB800FD4FFB /* MABYT3_ChannelStatus.m */; };
+		8EB130D5191270E300FD4FFB /* MABYT3_ChannelBrandingSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130D4191270E300FD4FFB /* MABYT3_ChannelBrandingSettings.m */; };
+		8EB130D81912710400FD4FFB /* MABYT3_ChannelBrandingSettingsChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130D71912710400FD4FFB /* MABYT3_ChannelBrandingSettingsChannel.m */; };
+		8EB130DB1912767B00FD4FFB /* MABYT3_ChannelBrandingSettingsWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130DA1912767B00FD4FFB /* MABYT3_ChannelBrandingSettingsWatch.m */; };
+		8EB130DE1912777C00FD4FFB /* MABYT3_ChannelBrandingSettingsImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130DD1912777C00FD4FFB /* MABYT3_ChannelBrandingSettingsImage.m */; };
+		8EB130E119127F0200FD4FFB /* MABYT3_LocalizedPropertyURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130E019127F0200FD4FFB /* MABYT3_LocalizedPropertyURL.m */; };
+		8EB130E419127FBF00FD4FFB /* MABYT3_PropertyURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130E319127FBF00FD4FFB /* MABYT3_PropertyURL.m */; };
+		8EB130FF19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130F619129C4800FD4FFB /* MABYT3_ChannelInvideoPromotion.m */; };
+		8EB1310019129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionDefaultTiming.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130F819129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionDefaultTiming.m */; };
+		8EB1310119129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130FA19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItem.m */; };
+		8EB1310219129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItemIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130FC19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItemIdentifier.m */; };
+		8EB1310319129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB130FE19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionPosition.m */; };
+		8EB1310619129EA900FD4FFB /* MABYT3_ChannelAuditDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1310519129EA900FD4FFB /* MABYT3_ChannelAuditDetails.m */; };
+		8EB131091912A06100FD4FFB /* MABYT3_ChannelContentOwnerDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB131081912A06100FD4FFB /* MABYT3_ChannelContentOwnerDetails.m */; };
+		8EB1310D1912BF5B00FD4FFB /* MABYT3_Subscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1310C1912BF5B00FD4FFB /* MABYT3_Subscription.m */; };
+		8EB131101912BF8D00FD4FFB /* MABYT3_SubscriptionSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1310F1912BF8D00FD4FFB /* MABYT3_SubscriptionSnippet.m */; };
+		8EB131161912C2C500FD4FFB /* MABYT3_SubscriptionContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB131151912C2C500FD4FFB /* MABYT3_SubscriptionContentDetails.m */; };
+		8EB131191912CC1000FD4FFB /* MABYT3_SubscriberSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB131181912CC1000FD4FFB /* MABYT3_SubscriberSnippet.m */; };
+		8EB1311D1912F02C00FD4FFB /* MABYT3_Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1311C1912F02C00FD4FFB /* MABYT3_Activity.m */; };
+		8EB131201912F06300FD4FFB /* MABYT3_ActivitySnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1311F1912F06300FD4FFB /* MABYT3_ActivitySnippet.m */; };
+		8ED9E5ED1913D990009F8E64 /* MABYT3_ActivityContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9E5EC1913D990009F8E64 /* MABYT3_ActivityContentDetails.m */; };
+		8ED9E5F01913DA64009F8E64 /* MABYT3_ResourceId.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9E5EF1913DA64009F8E64 /* MABYT3_ResourceId.m */; };
+		8ED9E5F31913DD60009F8E64 /* MABYT3_ActivityPlaylistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9E5F21913DD60009F8E64 /* MABYT3_ActivityPlaylistItem.m */; };
+		8ED9E5F61913DEC1009F8E64 /* MABYT3_ActivityRecommendation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9E5F51913DEC1009F8E64 /* MABYT3_ActivityRecommendation.m */; };
+		8ED9E5F91913DFE8009F8E64 /* MABYT3_ActivitySocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9E5F81913DFE8009F8E64 /* MABYT3_ActivitySocial.m */; };
+		8ED9E5FD1914211A009F8E64 /* MABYT3_ChannelSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9E5FC1914211A009F8E64 /* MABYT3_ChannelSection.m */; };
+		8ED9E60019142242009F8E64 /* MABYT3_ChannelSectionSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9E5FF19142242009F8E64 /* MABYT3_ChannelSectionSnippet.m */; };
+		8ED9E60319142253009F8E64 /* MABYT3_ChannelSectionContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9E60219142253009F8E64 /* MABYT3_ChannelSectionContentDetails.m */; };
+		8ED9E606191435FA009F8E64 /* MABYT3_GuideCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9E605191435FA009F8E64 /* MABYT3_GuideCategory.m */; };
+		8ED9E609191438FA009F8E64 /* MABYT3_Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9E608191438FA009F8E64 /* MABYT3_Language.m */; };
+		8ED9E60C19143A28009F8E64 /* MABYT3_Region.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED9E60B19143A28009F8E64 /* MABYT3_Region.m */; };
+		8EE7377C1915510800EF446C /* MABYT3_PlayListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7377B1915510800EF446C /* MABYT3_PlayListItem.m */; };
+		8EE7377F1915518400EF446C /* MABYT3_PlayListItemSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7377E1915518400EF446C /* MABYT3_PlayListItemSnippet.m */; };
+		8EE73782191551A300EF446C /* MABYT3_PlayListItemContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE73781191551A300EF446C /* MABYT3_PlayListItemContentDetails.m */; };
+		8EE7378619155CCF00EF446C /* MABYT3_PlayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7378519155CCF00EF446C /* MABYT3_PlayList.m */; };
+		8EE7378919155D4E00EF446C /* MABYT3_PlayListSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7378819155D4E00EF446C /* MABYT3_PlayListSnippet.m */; };
+		8EE7378C19155D5E00EF446C /* MABYT3_PlayListContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7378B19155D5E00EF446C /* MABYT3_PlayListContentDetails.m */; };
+		8EE7378F1915608700EF446C /* MABYT3_VideoCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7378E1915608700EF446C /* MABYT3_VideoCategory.m */; };
+		8EE737931915632800EF446C /* MABYT3_SearchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737921915632800EF446C /* MABYT3_SearchItem.m */; };
+		8EE737991915634F00EF446C /* MABYT3_SearchItemSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737981915634F00EF446C /* MABYT3_SearchItemSnippet.m */; };
+		8EE7379D1915727700EF446C /* MABYT3_Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7379C1915727700EF446C /* MABYT3_Video.m */; };
+		8EE737A0191572EF00EF446C /* MABYT3_VideoSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE7379F191572EF00EF446C /* MABYT3_VideoSnippet.m */; };
+		8EE737A31915730100EF446C /* MABYT3_VideoContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737A21915730100EF446C /* MABYT3_VideoContentDetails.m */; };
+		8EE737A61915747800EF446C /* MABYT3_VideoStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737A51915747800EF446C /* MABYT3_VideoStatistics.m */; };
+		8EE737A91915748400EF446C /* MABYT3_VideoStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737A81915748400EF446C /* MABYT3_VideoStatus.m */; };
+		8EE737AF191574EE00EF446C /* MABYT3_RegionRestriction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737AE191574EE00EF446C /* MABYT3_RegionRestriction.m */; };
+		8EE737B2191574FB00EF446C /* MABYT3_ContentRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737B1191574FB00EF446C /* MABYT3_ContentRating.m */; };
+		8EE737B51915753200EF446C /* MABYT3_VideoRecordingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737B41915753200EF446C /* MABYT3_VideoRecordingDetails.m */; };
+		8EE737B81915754700EF446C /* MABYT3_Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737B71915754700EF446C /* MABYT3_Location.m */; };
+		8EE737BB1915755A00EF446C /* MABYT3_VideoFileDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737BA1915755A00EF446C /* MABYT3_VideoFileDetails.m */; };
+		8EE737BE1915756800EF446C /* MABYT3_VideoStreams.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737BD1915756800EF446C /* MABYT3_VideoStreams.m */; };
+		8EE737C11915757900EF446C /* MABYT3_AudioStreams.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737C01915757900EF446C /* MABYT3_AudioStreams.m */; };
+		8EE737C41915759E00EF446C /* MABYT3_VideoProcessingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737C31915759E00EF446C /* MABYT3_VideoProcessingDetails.m */; };
+		8EE737C7191575B400EF446C /* MABYT3_VideoProcessingProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737C6191575B400EF446C /* MABYT3_VideoProcessingProgress.m */; };
+		8EE737CA191575CA00EF446C /* MABYT3_VideoSuggestions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737C9191575CA00EF446C /* MABYT3_VideoSuggestions.m */; };
+		8EE737CD191575E100EF446C /* MABYT3_VideoLiveStreamingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE737CC191575E100EF446C /* MABYT3_VideoLiveStreamingDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +101,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E554558191975BB009A5FB5 /* MABYT3_APIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_APIRequest.h; sourceTree = "<group>"; };
+		8E554559191975BB009A5FB5 /* MABYT3_APIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_APIRequest.m; sourceTree = "<group>"; };
 		8EB1306B191164D100FD4FFB /* YTAPI3Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTAPI3Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB1306E191164D100FD4FFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8EB13070191164D100FD4FFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +122,139 @@
 		8EB13095191164D100FD4FFB /* YTAPI3DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YTAPI3DemoTests-Info.plist"; sourceTree = "<group>"; };
 		8EB13097191164D100FD4FFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8EB13099191164D100FD4FFB /* YTAPI3DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTAPI3DemoTests.m; sourceTree = "<group>"; };
+		8EB130A71911659F00FD4FFB /* MAB_GoogleAccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAB_GoogleAccessToken.h; sourceTree = "<group>"; };
+		8EB130A81911659F00FD4FFB /* MAB_GoogleAccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAB_GoogleAccessToken.m; sourceTree = "<group>"; };
+		8EB130A91911659F00FD4FFB /* MAB_GoogleOAuthTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAB_GoogleOAuthTouchViewController.h; sourceTree = "<group>"; };
+		8EB130AA1911659F00FD4FFB /* MAB_GoogleOAuthTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAB_GoogleOAuthTouchViewController.m; sourceTree = "<group>"; };
+		8EB130AB1911659F00FD4FFB /* MAB_GoogleUserCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAB_GoogleUserCredentials.h; sourceTree = "<group>"; };
+		8EB130AC1911659F00FD4FFB /* MAB_GoogleUserCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAB_GoogleUserCredentials.m; sourceTree = "<group>"; };
+		8EB130B71911692300FD4FFB /* MABYT3_Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_Channel.h; sourceTree = "<group>"; };
+		8EB130B81911692300FD4FFB /* MABYT3_Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_Channel.m; sourceTree = "<group>"; };
+		8EB130B91911692300FD4FFB /* MABYT3_ChannelSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelSnippet.h; sourceTree = "<group>"; };
+		8EB130BA1911692300FD4FFB /* MABYT3_ChannelSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelSnippet.m; sourceTree = "<group>"; };
+		8EB130BD19116A2700FD4FFB /* MAB_GDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAB_GDate.h; sourceTree = "<group>"; };
+		8EB130BE19116A2700FD4FFB /* MAB_GDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAB_GDate.m; sourceTree = "<group>"; };
+		8EB130BF19116A2700FD4FFB /* MAB_GLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAB_GLink.h; sourceTree = "<group>"; };
+		8EB130C019116A2700FD4FFB /* MAB_GLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAB_GLink.m; sourceTree = "<group>"; };
+		8EB130C319116A9800FD4FFB /* MABYT3_Thumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_Thumbnail.h; sourceTree = "<group>"; };
+		8EB130C419116A9800FD4FFB /* MABYT3_Thumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_Thumbnail.m; sourceTree = "<group>"; };
+		8EB130C6191197E000FD4FFB /* MABYT3_ChannelContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelContentDetails.h; sourceTree = "<group>"; };
+		8EB130C7191197E000FD4FFB /* MABYT3_ChannelContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelContentDetails.m; sourceTree = "<group>"; };
+		8EB130C91911991400FD4FFB /* MABYT3_ChannelStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelStatistics.h; sourceTree = "<group>"; };
+		8EB130CA1911991400FD4FFB /* MABYT3_ChannelStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelStatistics.m; sourceTree = "<group>"; };
+		8EB130CC19126DB800FD4FFB /* MABYT3_ChannelStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelStatus.h; sourceTree = "<group>"; };
+		8EB130CD19126DB800FD4FFB /* MABYT3_ChannelStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelStatus.m; sourceTree = "<group>"; };
+		8EB130D3191270E300FD4FFB /* MABYT3_ChannelBrandingSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelBrandingSettings.h; sourceTree = "<group>"; };
+		8EB130D4191270E300FD4FFB /* MABYT3_ChannelBrandingSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelBrandingSettings.m; sourceTree = "<group>"; };
+		8EB130D61912710400FD4FFB /* MABYT3_ChannelBrandingSettingsChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelBrandingSettingsChannel.h; sourceTree = "<group>"; };
+		8EB130D71912710400FD4FFB /* MABYT3_ChannelBrandingSettingsChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelBrandingSettingsChannel.m; sourceTree = "<group>"; };
+		8EB130D91912767B00FD4FFB /* MABYT3_ChannelBrandingSettingsWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelBrandingSettingsWatch.h; sourceTree = "<group>"; };
+		8EB130DA1912767B00FD4FFB /* MABYT3_ChannelBrandingSettingsWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelBrandingSettingsWatch.m; sourceTree = "<group>"; };
+		8EB130DC1912777C00FD4FFB /* MABYT3_ChannelBrandingSettingsImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelBrandingSettingsImage.h; sourceTree = "<group>"; };
+		8EB130DD1912777C00FD4FFB /* MABYT3_ChannelBrandingSettingsImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelBrandingSettingsImage.m; sourceTree = "<group>"; };
+		8EB130DF19127F0200FD4FFB /* MABYT3_LocalizedPropertyURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_LocalizedPropertyURL.h; sourceTree = "<group>"; };
+		8EB130E019127F0200FD4FFB /* MABYT3_LocalizedPropertyURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_LocalizedPropertyURL.m; sourceTree = "<group>"; };
+		8EB130E219127FBF00FD4FFB /* MABYT3_PropertyURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_PropertyURL.h; sourceTree = "<group>"; };
+		8EB130E319127FBF00FD4FFB /* MABYT3_PropertyURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_PropertyURL.m; sourceTree = "<group>"; };
+		8EB130F519129C4800FD4FFB /* MABYT3_ChannelInvideoPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelInvideoPromotion.h; sourceTree = "<group>"; };
+		8EB130F619129C4800FD4FFB /* MABYT3_ChannelInvideoPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelInvideoPromotion.m; sourceTree = "<group>"; };
+		8EB130F719129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionDefaultTiming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelInvideoPromotionDefaultTiming.h; sourceTree = "<group>"; };
+		8EB130F819129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionDefaultTiming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelInvideoPromotionDefaultTiming.m; sourceTree = "<group>"; };
+		8EB130F919129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelInvideoPromotionItem.h; sourceTree = "<group>"; };
+		8EB130FA19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelInvideoPromotionItem.m; sourceTree = "<group>"; };
+		8EB130FB19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItemIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelInvideoPromotionItemIdentifier.h; sourceTree = "<group>"; };
+		8EB130FC19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItemIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelInvideoPromotionItemIdentifier.m; sourceTree = "<group>"; };
+		8EB130FD19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelInvideoPromotionPosition.h; sourceTree = "<group>"; };
+		8EB130FE19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelInvideoPromotionPosition.m; sourceTree = "<group>"; };
+		8EB1310419129EA900FD4FFB /* MABYT3_ChannelAuditDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelAuditDetails.h; sourceTree = "<group>"; };
+		8EB1310519129EA900FD4FFB /* MABYT3_ChannelAuditDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelAuditDetails.m; sourceTree = "<group>"; };
+		8EB131071912A06100FD4FFB /* MABYT3_ChannelContentOwnerDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelContentOwnerDetails.h; sourceTree = "<group>"; };
+		8EB131081912A06100FD4FFB /* MABYT3_ChannelContentOwnerDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelContentOwnerDetails.m; sourceTree = "<group>"; };
+		8EB1310B1912BF5B00FD4FFB /* MABYT3_Subscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_Subscription.h; sourceTree = "<group>"; };
+		8EB1310C1912BF5B00FD4FFB /* MABYT3_Subscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_Subscription.m; sourceTree = "<group>"; };
+		8EB1310E1912BF8D00FD4FFB /* MABYT3_SubscriptionSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_SubscriptionSnippet.h; sourceTree = "<group>"; };
+		8EB1310F1912BF8D00FD4FFB /* MABYT3_SubscriptionSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_SubscriptionSnippet.m; sourceTree = "<group>"; };
+		8EB131141912C2C500FD4FFB /* MABYT3_SubscriptionContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_SubscriptionContentDetails.h; sourceTree = "<group>"; };
+		8EB131151912C2C500FD4FFB /* MABYT3_SubscriptionContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_SubscriptionContentDetails.m; sourceTree = "<group>"; };
+		8EB131171912CC1000FD4FFB /* MABYT3_SubscriberSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_SubscriberSnippet.h; sourceTree = "<group>"; };
+		8EB131181912CC1000FD4FFB /* MABYT3_SubscriberSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_SubscriberSnippet.m; sourceTree = "<group>"; };
+		8EB1311B1912F02C00FD4FFB /* MABYT3_Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_Activity.h; sourceTree = "<group>"; };
+		8EB1311C1912F02C00FD4FFB /* MABYT3_Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_Activity.m; sourceTree = "<group>"; };
+		8EB1311E1912F06300FD4FFB /* MABYT3_ActivitySnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ActivitySnippet.h; sourceTree = "<group>"; };
+		8EB1311F1912F06300FD4FFB /* MABYT3_ActivitySnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ActivitySnippet.m; sourceTree = "<group>"; };
+		8ED9E5EB1913D990009F8E64 /* MABYT3_ActivityContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ActivityContentDetails.h; sourceTree = "<group>"; };
+		8ED9E5EC1913D990009F8E64 /* MABYT3_ActivityContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ActivityContentDetails.m; sourceTree = "<group>"; };
+		8ED9E5EE1913DA64009F8E64 /* MABYT3_ResourceId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ResourceId.h; sourceTree = "<group>"; };
+		8ED9E5EF1913DA64009F8E64 /* MABYT3_ResourceId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ResourceId.m; sourceTree = "<group>"; };
+		8ED9E5F11913DD60009F8E64 /* MABYT3_ActivityPlaylistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ActivityPlaylistItem.h; sourceTree = "<group>"; };
+		8ED9E5F21913DD60009F8E64 /* MABYT3_ActivityPlaylistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ActivityPlaylistItem.m; sourceTree = "<group>"; };
+		8ED9E5F41913DEC1009F8E64 /* MABYT3_ActivityRecommendation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ActivityRecommendation.h; sourceTree = "<group>"; };
+		8ED9E5F51913DEC1009F8E64 /* MABYT3_ActivityRecommendation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ActivityRecommendation.m; sourceTree = "<group>"; };
+		8ED9E5F71913DFE8009F8E64 /* MABYT3_ActivitySocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ActivitySocial.h; sourceTree = "<group>"; };
+		8ED9E5F81913DFE8009F8E64 /* MABYT3_ActivitySocial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ActivitySocial.m; sourceTree = "<group>"; };
+		8ED9E5FB1914211A009F8E64 /* MABYT3_ChannelSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelSection.h; sourceTree = "<group>"; };
+		8ED9E5FC1914211A009F8E64 /* MABYT3_ChannelSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelSection.m; sourceTree = "<group>"; };
+		8ED9E5FE19142242009F8E64 /* MABYT3_ChannelSectionSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelSectionSnippet.h; sourceTree = "<group>"; };
+		8ED9E5FF19142242009F8E64 /* MABYT3_ChannelSectionSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelSectionSnippet.m; sourceTree = "<group>"; };
+		8ED9E60119142253009F8E64 /* MABYT3_ChannelSectionContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ChannelSectionContentDetails.h; sourceTree = "<group>"; };
+		8ED9E60219142253009F8E64 /* MABYT3_ChannelSectionContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ChannelSectionContentDetails.m; sourceTree = "<group>"; };
+		8ED9E604191435FA009F8E64 /* MABYT3_GuideCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_GuideCategory.h; sourceTree = "<group>"; };
+		8ED9E605191435FA009F8E64 /* MABYT3_GuideCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_GuideCategory.m; sourceTree = "<group>"; };
+		8ED9E607191438FA009F8E64 /* MABYT3_Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_Language.h; sourceTree = "<group>"; };
+		8ED9E608191438FA009F8E64 /* MABYT3_Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_Language.m; sourceTree = "<group>"; };
+		8ED9E60A19143A28009F8E64 /* MABYT3_Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_Region.h; sourceTree = "<group>"; };
+		8ED9E60B19143A28009F8E64 /* MABYT3_Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_Region.m; sourceTree = "<group>"; };
+		8ED9E60D19143DE7009F8E64 /* MABYT3_enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_enums.h; sourceTree = "<group>"; };
+		8EE7377A1915510800EF446C /* MABYT3_PlayListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_PlayListItem.h; sourceTree = "<group>"; };
+		8EE7377B1915510800EF446C /* MABYT3_PlayListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_PlayListItem.m; sourceTree = "<group>"; };
+		8EE7377D1915518400EF446C /* MABYT3_PlayListItemSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_PlayListItemSnippet.h; sourceTree = "<group>"; };
+		8EE7377E1915518400EF446C /* MABYT3_PlayListItemSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_PlayListItemSnippet.m; sourceTree = "<group>"; };
+		8EE73780191551A300EF446C /* MABYT3_PlayListItemContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_PlayListItemContentDetails.h; sourceTree = "<group>"; };
+		8EE73781191551A300EF446C /* MABYT3_PlayListItemContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_PlayListItemContentDetails.m; sourceTree = "<group>"; };
+		8EE7378419155CCF00EF446C /* MABYT3_PlayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_PlayList.h; sourceTree = "<group>"; };
+		8EE7378519155CCF00EF446C /* MABYT3_PlayList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_PlayList.m; sourceTree = "<group>"; };
+		8EE7378719155D4E00EF446C /* MABYT3_PlayListSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_PlayListSnippet.h; sourceTree = "<group>"; };
+		8EE7378819155D4E00EF446C /* MABYT3_PlayListSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_PlayListSnippet.m; sourceTree = "<group>"; };
+		8EE7378A19155D5E00EF446C /* MABYT3_PlayListContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_PlayListContentDetails.h; sourceTree = "<group>"; };
+		8EE7378B19155D5E00EF446C /* MABYT3_PlayListContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_PlayListContentDetails.m; sourceTree = "<group>"; };
+		8EE7378D1915608700EF446C /* MABYT3_VideoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoCategory.h; sourceTree = "<group>"; };
+		8EE7378E1915608700EF446C /* MABYT3_VideoCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoCategory.m; sourceTree = "<group>"; };
+		8EE737911915632800EF446C /* MABYT3_SearchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_SearchItem.h; sourceTree = "<group>"; };
+		8EE737921915632800EF446C /* MABYT3_SearchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_SearchItem.m; sourceTree = "<group>"; };
+		8EE737971915634F00EF446C /* MABYT3_SearchItemSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_SearchItemSnippet.h; sourceTree = "<group>"; };
+		8EE737981915634F00EF446C /* MABYT3_SearchItemSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_SearchItemSnippet.m; sourceTree = "<group>"; };
+		8EE7379B1915727700EF446C /* MABYT3_Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_Video.h; sourceTree = "<group>"; };
+		8EE7379C1915727700EF446C /* MABYT3_Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_Video.m; sourceTree = "<group>"; };
+		8EE7379E191572EF00EF446C /* MABYT3_VideoSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoSnippet.h; sourceTree = "<group>"; };
+		8EE7379F191572EF00EF446C /* MABYT3_VideoSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoSnippet.m; sourceTree = "<group>"; };
+		8EE737A11915730100EF446C /* MABYT3_VideoContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoContentDetails.h; sourceTree = "<group>"; };
+		8EE737A21915730100EF446C /* MABYT3_VideoContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoContentDetails.m; sourceTree = "<group>"; };
+		8EE737A41915747800EF446C /* MABYT3_VideoStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoStatistics.h; sourceTree = "<group>"; };
+		8EE737A51915747800EF446C /* MABYT3_VideoStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoStatistics.m; sourceTree = "<group>"; };
+		8EE737A71915748400EF446C /* MABYT3_VideoStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoStatus.h; sourceTree = "<group>"; };
+		8EE737A81915748400EF446C /* MABYT3_VideoStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoStatus.m; sourceTree = "<group>"; };
+		8EE737AD191574EE00EF446C /* MABYT3_RegionRestriction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_RegionRestriction.h; sourceTree = "<group>"; };
+		8EE737AE191574EE00EF446C /* MABYT3_RegionRestriction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_RegionRestriction.m; sourceTree = "<group>"; };
+		8EE737B0191574FB00EF446C /* MABYT3_ContentRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_ContentRating.h; sourceTree = "<group>"; };
+		8EE737B1191574FB00EF446C /* MABYT3_ContentRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_ContentRating.m; sourceTree = "<group>"; };
+		8EE737B31915753200EF446C /* MABYT3_VideoRecordingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoRecordingDetails.h; sourceTree = "<group>"; };
+		8EE737B41915753200EF446C /* MABYT3_VideoRecordingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoRecordingDetails.m; sourceTree = "<group>"; };
+		8EE737B61915754700EF446C /* MABYT3_Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_Location.h; sourceTree = "<group>"; };
+		8EE737B71915754700EF446C /* MABYT3_Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_Location.m; sourceTree = "<group>"; };
+		8EE737B91915755A00EF446C /* MABYT3_VideoFileDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoFileDetails.h; sourceTree = "<group>"; };
+		8EE737BA1915755A00EF446C /* MABYT3_VideoFileDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoFileDetails.m; sourceTree = "<group>"; };
+		8EE737BC1915756800EF446C /* MABYT3_VideoStreams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoStreams.h; sourceTree = "<group>"; };
+		8EE737BD1915756800EF446C /* MABYT3_VideoStreams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoStreams.m; sourceTree = "<group>"; };
+		8EE737BF1915757900EF446C /* MABYT3_AudioStreams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_AudioStreams.h; sourceTree = "<group>"; };
+		8EE737C01915757900EF446C /* MABYT3_AudioStreams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_AudioStreams.m; sourceTree = "<group>"; };
+		8EE737C21915759E00EF446C /* MABYT3_VideoProcessingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoProcessingDetails.h; sourceTree = "<group>"; };
+		8EE737C31915759E00EF446C /* MABYT3_VideoProcessingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoProcessingDetails.m; sourceTree = "<group>"; };
+		8EE737C5191575B400EF446C /* MABYT3_VideoProcessingProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoProcessingProgress.h; sourceTree = "<group>"; };
+		8EE737C6191575B400EF446C /* MABYT3_VideoProcessingProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoProcessingProgress.m; sourceTree = "<group>"; };
+		8EE737C8191575CA00EF446C /* MABYT3_VideoSuggestions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoSuggestions.h; sourceTree = "<group>"; };
+		8EE737C9191575CA00EF446C /* MABYT3_VideoSuggestions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoSuggestions.m; sourceTree = "<group>"; };
+		8EE737CB191575E100EF446C /* MABYT3_VideoLiveStreamingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABYT3_VideoLiveStreamingDetails.h; sourceTree = "<group>"; };
+		8EE737CC191575E100EF446C /* MABYT3_VideoLiveStreamingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABYT3_VideoLiveStreamingDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +281,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E5545571919759E009A5FB5 /* APICalls */ = {
+			isa = PBXGroup;
+			children = (
+				8E554558191975BB009A5FB5 /* MABYT3_APIRequest.h */,
+				8E554559191975BB009A5FB5 /* MABYT3_APIRequest.m */,
+			);
+			path = APICalls;
+			sourceTree = "<group>";
+		};
 		8EB13062191164D100FD4FFB = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +329,7 @@
 				8EB13083191164D100FD4FFB /* MABYT3_ViewController.h */,
 				8EB13084191164D100FD4FFB /* MABYT3_ViewController.m */,
 				8EB13086191164D100FD4FFB /* Images.xcassets */,
+				8EB130A31911652800FD4FFB /* YTAPI3 */,
 				8EB13075191164D100FD4FFB /* Supporting Files */,
 			);
 			path = YTAPI3Demo;
@@ -150,6 +362,244 @@
 				8EB13096191164D100FD4FFB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EB130A31911652800FD4FFB /* YTAPI3 */ = {
+			isa = PBXGroup;
+			children = (
+				8EB130A61911659F00FD4FFB /* OAuthFrameWork */,
+				8EB130A41911652800FD4FFB /* API */,
+			);
+			name = YTAPI3;
+			path = ../YTAPI3;
+			sourceTree = "<group>";
+		};
+		8EB130A41911652800FD4FFB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8E5545571919759E009A5FB5 /* APICalls */,
+				8EB1311A1912F01C00FD4FFB /* Activity */,
+				8EB130B61911690500FD4FFB /* Channel */,
+				8ED9E5FA19142109009F8E64 /* ChannelSection */,
+				8ED9E60E19143F36009F8E64 /* PlayListItem */,
+				8EE7378319155CB100EF446C /* PlayList */,
+				8EE737901915630F00EF446C /* SearchItem */,
+				8EB1310A1912BF3900FD4FFB /* Subscription */,
+				8EE7379A1915726A00EF446C /* Video */,
+				8EB130BD19116A2700FD4FFB /* MAB_GDate.h */,
+				8EB130BE19116A2700FD4FFB /* MAB_GDate.m */,
+				8EB130BF19116A2700FD4FFB /* MAB_GLink.h */,
+				8EB130C019116A2700FD4FFB /* MAB_GLink.m */,
+				8EB130C319116A9800FD4FFB /* MABYT3_Thumbnail.h */,
+				8EB130C419116A9800FD4FFB /* MABYT3_Thumbnail.m */,
+				8ED9E5EE1913DA64009F8E64 /* MABYT3_ResourceId.h */,
+				8ED9E5EF1913DA64009F8E64 /* MABYT3_ResourceId.m */,
+				8ED9E604191435FA009F8E64 /* MABYT3_GuideCategory.h */,
+				8ED9E605191435FA009F8E64 /* MABYT3_GuideCategory.m */,
+				8ED9E607191438FA009F8E64 /* MABYT3_Language.h */,
+				8ED9E608191438FA009F8E64 /* MABYT3_Language.m */,
+				8ED9E60A19143A28009F8E64 /* MABYT3_Region.h */,
+				8ED9E60B19143A28009F8E64 /* MABYT3_Region.m */,
+				8ED9E60D19143DE7009F8E64 /* MABYT3_enums.h */,
+				8EE7378D1915608700EF446C /* MABYT3_VideoCategory.h */,
+				8EE7378E1915608700EF446C /* MABYT3_VideoCategory.m */,
+				8EE737AD191574EE00EF446C /* MABYT3_RegionRestriction.h */,
+				8EE737AE191574EE00EF446C /* MABYT3_RegionRestriction.m */,
+				8EE737B0191574FB00EF446C /* MABYT3_ContentRating.h */,
+				8EE737B1191574FB00EF446C /* MABYT3_ContentRating.m */,
+				8EE737B61915754700EF446C /* MABYT3_Location.h */,
+				8EE737B71915754700EF446C /* MABYT3_Location.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		8EB130A61911659F00FD4FFB /* OAuthFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				8EB130A71911659F00FD4FFB /* MAB_GoogleAccessToken.h */,
+				8EB130A81911659F00FD4FFB /* MAB_GoogleAccessToken.m */,
+				8EB130A91911659F00FD4FFB /* MAB_GoogleOAuthTouchViewController.h */,
+				8EB130AA1911659F00FD4FFB /* MAB_GoogleOAuthTouchViewController.m */,
+				8EB130AB1911659F00FD4FFB /* MAB_GoogleUserCredentials.h */,
+				8EB130AC1911659F00FD4FFB /* MAB_GoogleUserCredentials.m */,
+			);
+			path = OAuthFrameWork;
+			sourceTree = "<group>";
+		};
+		8EB130B61911690500FD4FFB /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				8EB130D2191270C700FD4FFB /* BrandingSettings */,
+				8EB130F419129C4800FD4FFB /* InVideoPromotion */,
+				8EB130B71911692300FD4FFB /* MABYT3_Channel.h */,
+				8EB130B81911692300FD4FFB /* MABYT3_Channel.m */,
+				8EB130B91911692300FD4FFB /* MABYT3_ChannelSnippet.h */,
+				8EB130BA1911692300FD4FFB /* MABYT3_ChannelSnippet.m */,
+				8EB130C6191197E000FD4FFB /* MABYT3_ChannelContentDetails.h */,
+				8EB130C7191197E000FD4FFB /* MABYT3_ChannelContentDetails.m */,
+				8EB130C91911991400FD4FFB /* MABYT3_ChannelStatistics.h */,
+				8EB130CA1911991400FD4FFB /* MABYT3_ChannelStatistics.m */,
+				8EB130CC19126DB800FD4FFB /* MABYT3_ChannelStatus.h */,
+				8EB130CD19126DB800FD4FFB /* MABYT3_ChannelStatus.m */,
+				8EB1310419129EA900FD4FFB /* MABYT3_ChannelAuditDetails.h */,
+				8EB1310519129EA900FD4FFB /* MABYT3_ChannelAuditDetails.m */,
+				8EB131071912A06100FD4FFB /* MABYT3_ChannelContentOwnerDetails.h */,
+				8EB131081912A06100FD4FFB /* MABYT3_ChannelContentOwnerDetails.m */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		8EB130D2191270C700FD4FFB /* BrandingSettings */ = {
+			isa = PBXGroup;
+			children = (
+				8EB130D3191270E300FD4FFB /* MABYT3_ChannelBrandingSettings.h */,
+				8EB130D4191270E300FD4FFB /* MABYT3_ChannelBrandingSettings.m */,
+				8EB130D61912710400FD4FFB /* MABYT3_ChannelBrandingSettingsChannel.h */,
+				8EB130D71912710400FD4FFB /* MABYT3_ChannelBrandingSettingsChannel.m */,
+				8EB130D91912767B00FD4FFB /* MABYT3_ChannelBrandingSettingsWatch.h */,
+				8EB130DA1912767B00FD4FFB /* MABYT3_ChannelBrandingSettingsWatch.m */,
+				8EB130DF19127F0200FD4FFB /* MABYT3_LocalizedPropertyURL.h */,
+				8EB130E019127F0200FD4FFB /* MABYT3_LocalizedPropertyURL.m */,
+				8EB130E219127FBF00FD4FFB /* MABYT3_PropertyURL.h */,
+				8EB130E319127FBF00FD4FFB /* MABYT3_PropertyURL.m */,
+				8EB130DC1912777C00FD4FFB /* MABYT3_ChannelBrandingSettingsImage.h */,
+				8EB130DD1912777C00FD4FFB /* MABYT3_ChannelBrandingSettingsImage.m */,
+			);
+			path = BrandingSettings;
+			sourceTree = "<group>";
+		};
+		8EB130F419129C4800FD4FFB /* InVideoPromotion */ = {
+			isa = PBXGroup;
+			children = (
+				8EB130F519129C4800FD4FFB /* MABYT3_ChannelInvideoPromotion.h */,
+				8EB130F619129C4800FD4FFB /* MABYT3_ChannelInvideoPromotion.m */,
+				8EB130F719129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionDefaultTiming.h */,
+				8EB130F819129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionDefaultTiming.m */,
+				8EB130F919129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItem.h */,
+				8EB130FA19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItem.m */,
+				8EB130FB19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItemIdentifier.h */,
+				8EB130FC19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItemIdentifier.m */,
+				8EB130FD19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionPosition.h */,
+				8EB130FE19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionPosition.m */,
+			);
+			path = InVideoPromotion;
+			sourceTree = "<group>";
+		};
+		8EB1310A1912BF3900FD4FFB /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1310B1912BF5B00FD4FFB /* MABYT3_Subscription.h */,
+				8EB1310C1912BF5B00FD4FFB /* MABYT3_Subscription.m */,
+				8EB1310E1912BF8D00FD4FFB /* MABYT3_SubscriptionSnippet.h */,
+				8EB1310F1912BF8D00FD4FFB /* MABYT3_SubscriptionSnippet.m */,
+				8EB131141912C2C500FD4FFB /* MABYT3_SubscriptionContentDetails.h */,
+				8EB131151912C2C500FD4FFB /* MABYT3_SubscriptionContentDetails.m */,
+				8EB131171912CC1000FD4FFB /* MABYT3_SubscriberSnippet.h */,
+				8EB131181912CC1000FD4FFB /* MABYT3_SubscriberSnippet.m */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		8EB1311A1912F01C00FD4FFB /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1311B1912F02C00FD4FFB /* MABYT3_Activity.h */,
+				8EB1311C1912F02C00FD4FFB /* MABYT3_Activity.m */,
+				8EB1311E1912F06300FD4FFB /* MABYT3_ActivitySnippet.h */,
+				8EB1311F1912F06300FD4FFB /* MABYT3_ActivitySnippet.m */,
+				8ED9E5EB1913D990009F8E64 /* MABYT3_ActivityContentDetails.h */,
+				8ED9E5EC1913D990009F8E64 /* MABYT3_ActivityContentDetails.m */,
+				8ED9E5F11913DD60009F8E64 /* MABYT3_ActivityPlaylistItem.h */,
+				8ED9E5F21913DD60009F8E64 /* MABYT3_ActivityPlaylistItem.m */,
+				8ED9E5F41913DEC1009F8E64 /* MABYT3_ActivityRecommendation.h */,
+				8ED9E5F51913DEC1009F8E64 /* MABYT3_ActivityRecommendation.m */,
+				8ED9E5F71913DFE8009F8E64 /* MABYT3_ActivitySocial.h */,
+				8ED9E5F81913DFE8009F8E64 /* MABYT3_ActivitySocial.m */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		8ED9E5FA19142109009F8E64 /* ChannelSection */ = {
+			isa = PBXGroup;
+			children = (
+				8ED9E5FB1914211A009F8E64 /* MABYT3_ChannelSection.h */,
+				8ED9E5FC1914211A009F8E64 /* MABYT3_ChannelSection.m */,
+				8ED9E5FE19142242009F8E64 /* MABYT3_ChannelSectionSnippet.h */,
+				8ED9E5FF19142242009F8E64 /* MABYT3_ChannelSectionSnippet.m */,
+				8ED9E60119142253009F8E64 /* MABYT3_ChannelSectionContentDetails.h */,
+				8ED9E60219142253009F8E64 /* MABYT3_ChannelSectionContentDetails.m */,
+			);
+			path = ChannelSection;
+			sourceTree = "<group>";
+		};
+		8ED9E60E19143F36009F8E64 /* PlayListItem */ = {
+			isa = PBXGroup;
+			children = (
+				8EE7377A1915510800EF446C /* MABYT3_PlayListItem.h */,
+				8EE7377B1915510800EF446C /* MABYT3_PlayListItem.m */,
+				8EE7377D1915518400EF446C /* MABYT3_PlayListItemSnippet.h */,
+				8EE7377E1915518400EF446C /* MABYT3_PlayListItemSnippet.m */,
+				8EE73780191551A300EF446C /* MABYT3_PlayListItemContentDetails.h */,
+				8EE73781191551A300EF446C /* MABYT3_PlayListItemContentDetails.m */,
+			);
+			path = PlayListItem;
+			sourceTree = "<group>";
+		};
+		8EE7378319155CB100EF446C /* PlayList */ = {
+			isa = PBXGroup;
+			children = (
+				8EE7378419155CCF00EF446C /* MABYT3_PlayList.h */,
+				8EE7378519155CCF00EF446C /* MABYT3_PlayList.m */,
+				8EE7378719155D4E00EF446C /* MABYT3_PlayListSnippet.h */,
+				8EE7378819155D4E00EF446C /* MABYT3_PlayListSnippet.m */,
+				8EE7378A19155D5E00EF446C /* MABYT3_PlayListContentDetails.h */,
+				8EE7378B19155D5E00EF446C /* MABYT3_PlayListContentDetails.m */,
+			);
+			path = PlayList;
+			sourceTree = "<group>";
+		};
+		8EE737901915630F00EF446C /* SearchItem */ = {
+			isa = PBXGroup;
+			children = (
+				8EE737911915632800EF446C /* MABYT3_SearchItem.h */,
+				8EE737921915632800EF446C /* MABYT3_SearchItem.m */,
+				8EE737971915634F00EF446C /* MABYT3_SearchItemSnippet.h */,
+				8EE737981915634F00EF446C /* MABYT3_SearchItemSnippet.m */,
+			);
+			path = SearchItem;
+			sourceTree = "<group>";
+		};
+		8EE7379A1915726A00EF446C /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				8EE7379B1915727700EF446C /* MABYT3_Video.h */,
+				8EE7379C1915727700EF446C /* MABYT3_Video.m */,
+				8EE7379E191572EF00EF446C /* MABYT3_VideoSnippet.h */,
+				8EE7379F191572EF00EF446C /* MABYT3_VideoSnippet.m */,
+				8EE737A11915730100EF446C /* MABYT3_VideoContentDetails.h */,
+				8EE737A21915730100EF446C /* MABYT3_VideoContentDetails.m */,
+				8EE737A71915748400EF446C /* MABYT3_VideoStatus.h */,
+				8EE737A81915748400EF446C /* MABYT3_VideoStatus.m */,
+				8EE737A41915747800EF446C /* MABYT3_VideoStatistics.h */,
+				8EE737A51915747800EF446C /* MABYT3_VideoStatistics.m */,
+				8EE737B31915753200EF446C /* MABYT3_VideoRecordingDetails.h */,
+				8EE737B41915753200EF446C /* MABYT3_VideoRecordingDetails.m */,
+				8EE737B91915755A00EF446C /* MABYT3_VideoFileDetails.h */,
+				8EE737BA1915755A00EF446C /* MABYT3_VideoFileDetails.m */,
+				8EE737BC1915756800EF446C /* MABYT3_VideoStreams.h */,
+				8EE737BD1915756800EF446C /* MABYT3_VideoStreams.m */,
+				8EE737BF1915757900EF446C /* MABYT3_AudioStreams.h */,
+				8EE737C01915757900EF446C /* MABYT3_AudioStreams.m */,
+				8EE737C21915759E00EF446C /* MABYT3_VideoProcessingDetails.h */,
+				8EE737C31915759E00EF446C /* MABYT3_VideoProcessingDetails.m */,
+				8EE737C5191575B400EF446C /* MABYT3_VideoProcessingProgress.h */,
+				8EE737C6191575B400EF446C /* MABYT3_VideoProcessingProgress.m */,
+				8EE737C8191575CA00EF446C /* MABYT3_VideoSuggestions.h */,
+				8EE737C9191575CA00EF446C /* MABYT3_VideoSuggestions.m */,
+				8EE737CB191575E100EF446C /* MABYT3_VideoLiveStreamingDetails.h */,
+				8EE737CC191575E100EF446C /* MABYT3_VideoLiveStreamingDetails.m */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +700,76 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB130DB1912767B00FD4FFB /* MABYT3_ChannelBrandingSettingsWatch.m in Sources */,
+				8ED9E60319142253009F8E64 /* MABYT3_ChannelSectionContentDetails.m in Sources */,
+				8ED9E5F31913DD60009F8E64 /* MABYT3_ActivityPlaylistItem.m in Sources */,
+				8EB130DE1912777C00FD4FFB /* MABYT3_ChannelBrandingSettingsImage.m in Sources */,
+				8EB1310019129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionDefaultTiming.m in Sources */,
+				8EB131201912F06300FD4FFB /* MABYT3_ActivitySnippet.m in Sources */,
+				8EE737931915632800EF446C /* MABYT3_SearchItem.m in Sources */,
+				8EB131101912BF8D00FD4FFB /* MABYT3_SubscriptionSnippet.m in Sources */,
 				8EB1307F191164D100FD4FFB /* MABYT3_AppDelegate.m in Sources */,
+				8EB131091912A06100FD4FFB /* MABYT3_ChannelContentOwnerDetails.m in Sources */,
+				8EB130CB1911991400FD4FFB /* MABYT3_ChannelStatistics.m in Sources */,
+				8ED9E609191438FA009F8E64 /* MABYT3_Language.m in Sources */,
+				8ED9E60019142242009F8E64 /* MABYT3_ChannelSectionSnippet.m in Sources */,
+				8EE7378919155D4E00EF446C /* MABYT3_PlayListSnippet.m in Sources */,
+				8EE737A31915730100EF446C /* MABYT3_VideoContentDetails.m in Sources */,
+				8EB130AE1911659F00FD4FFB /* MAB_GoogleOAuthTouchViewController.m in Sources */,
+				8EB1310219129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItemIdentifier.m in Sources */,
+				8EB130E419127FBF00FD4FFB /* MABYT3_PropertyURL.m in Sources */,
+				8EB130AD1911659F00FD4FFB /* MAB_GoogleAccessToken.m in Sources */,
+				8EE737AF191574EE00EF446C /* MABYT3_RegionRestriction.m in Sources */,
+				8EE7377C1915510800EF446C /* MABYT3_PlayListItem.m in Sources */,
+				8EE737BE1915756800EF446C /* MABYT3_VideoStreams.m in Sources */,
+				8EB130AF1911659F00FD4FFB /* MAB_GoogleUserCredentials.m in Sources */,
+				8EE737B81915754700EF446C /* MABYT3_Location.m in Sources */,
+				8EB1310319129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionPosition.m in Sources */,
+				8E55455A191975BB009A5FB5 /* MABYT3_APIRequest.m in Sources */,
+				8EB130C519116A9800FD4FFB /* MABYT3_Thumbnail.m in Sources */,
+				8ED9E5FD1914211A009F8E64 /* MABYT3_ChannelSection.m in Sources */,
 				8EB1307B191164D100FD4FFB /* main.m in Sources */,
+				8EE737C11915757900EF446C /* MABYT3_AudioStreams.m in Sources */,
+				8EE737B51915753200EF446C /* MABYT3_VideoRecordingDetails.m in Sources */,
+				8EE73782191551A300EF446C /* MABYT3_PlayListItemContentDetails.m in Sources */,
+				8EB130BC1911692300FD4FFB /* MABYT3_ChannelSnippet.m in Sources */,
+				8EE737A91915748400EF446C /* MABYT3_VideoStatus.m in Sources */,
+				8EB130C219116A2700FD4FFB /* MAB_GLink.m in Sources */,
+				8EB1310D1912BF5B00FD4FFB /* MABYT3_Subscription.m in Sources */,
+				8EE737C7191575B400EF446C /* MABYT3_VideoProcessingProgress.m in Sources */,
+				8ED9E5F01913DA64009F8E64 /* MABYT3_ResourceId.m in Sources */,
+				8ED9E5ED1913D990009F8E64 /* MABYT3_ActivityContentDetails.m in Sources */,
+				8EB130D81912710400FD4FFB /* MABYT3_ChannelBrandingSettingsChannel.m in Sources */,
+				8EE7377F1915518400EF446C /* MABYT3_PlayListItemSnippet.m in Sources */,
+				8EB1310619129EA900FD4FFB /* MABYT3_ChannelAuditDetails.m in Sources */,
+				8EE7378F1915608700EF446C /* MABYT3_VideoCategory.m in Sources */,
+				8EE737C41915759E00EF446C /* MABYT3_VideoProcessingDetails.m in Sources */,
+				8EE737A0191572EF00EF446C /* MABYT3_VideoSnippet.m in Sources */,
+				8EB1310119129C4800FD4FFB /* MABYT3_ChannelInvideoPromotionItem.m in Sources */,
+				8EE737991915634F00EF446C /* MABYT3_SearchItemSnippet.m in Sources */,
+				8EB130C119116A2700FD4FFB /* MAB_GDate.m in Sources */,
+				8EB130FF19129C4800FD4FFB /* MABYT3_ChannelInvideoPromotion.m in Sources */,
+				8EB130BB1911692300FD4FFB /* MABYT3_Channel.m in Sources */,
+				8EB131161912C2C500FD4FFB /* MABYT3_SubscriptionContentDetails.m in Sources */,
+				8ED9E60C19143A28009F8E64 /* MABYT3_Region.m in Sources */,
+				8ED9E606191435FA009F8E64 /* MABYT3_GuideCategory.m in Sources */,
+				8EE737A61915747800EF446C /* MABYT3_VideoStatistics.m in Sources */,
+				8EB130CE19126DB800FD4FFB /* MABYT3_ChannelStatus.m in Sources */,
+				8EE737B2191574FB00EF446C /* MABYT3_ContentRating.m in Sources */,
+				8ED9E5F61913DEC1009F8E64 /* MABYT3_ActivityRecommendation.m in Sources */,
+				8EB131191912CC1000FD4FFB /* MABYT3_SubscriberSnippet.m in Sources */,
+				8EB130C8191197E000FD4FFB /* MABYT3_ChannelContentDetails.m in Sources */,
+				8ED9E5F91913DFE8009F8E64 /* MABYT3_ActivitySocial.m in Sources */,
 				8EB13085191164D100FD4FFB /* MABYT3_ViewController.m in Sources */,
+				8EB130D5191270E300FD4FFB /* MABYT3_ChannelBrandingSettings.m in Sources */,
+				8EE7378C19155D5E00EF446C /* MABYT3_PlayListContentDetails.m in Sources */,
+				8EE737BB1915755A00EF446C /* MABYT3_VideoFileDetails.m in Sources */,
+				8EE7378619155CCF00EF446C /* MABYT3_PlayList.m in Sources */,
+				8EE7379D1915727700EF446C /* MABYT3_Video.m in Sources */,
+				8EE737CA191575CA00EF446C /* MABYT3_VideoSuggestions.m in Sources */,
+				8EB130E119127F0200FD4FFB /* MABYT3_LocalizedPropertyURL.m in Sources */,
+				8EE737CD191575E100EF446C /* MABYT3_VideoLiveStreamingDetails.m in Sources */,
+				8EB1311D1912F02C00FD4FFB /* MABYT3_Activity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +897,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YTAPI3Demo/YTAPI3Demo-Prefix.pch";
 				INFOPLIST_FILE = "YTAPI3Demo/YTAPI3Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +911,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YTAPI3Demo/YTAPI3Demo-Prefix.pch";
 				INFOPLIST_FILE = "YTAPI3Demo/YTAPI3Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +976,7 @@
 				8EB1309F191164D100FD4FFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EB130A0191164D100FD4FFB /* Build configuration list for PBXNativeTarget "YTAPI3DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +985,7 @@
 				8EB130A2191164D100FD4FFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
