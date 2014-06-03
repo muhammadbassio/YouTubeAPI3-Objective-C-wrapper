@@ -32,7 +32,7 @@ Check the demo project
 
 ##License
 
-The MIT License (MIT)
+MIT License (MIT)
 
 ```
 Copyright (c) 2014 MuhammadBassio
