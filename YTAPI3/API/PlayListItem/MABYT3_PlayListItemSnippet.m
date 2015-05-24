@@ -12,6 +12,8 @@
 
 @implementation MABYT3_PlayListItemSnippet
 
+@synthesize description = _description;
+
 - (id) init {
     
     self = [super init];

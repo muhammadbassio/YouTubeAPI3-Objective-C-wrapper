@@ -12,6 +12,8 @@
 
 @implementation MABYT3_SearchItemSnippet
 
+@synthesize description = _description;
+
 - (id) init {
     
     self = [super init];

@@ -12,6 +12,8 @@
 
 @implementation MABYT3_ActivitySnippet
 
+@synthesize description = _description;
+
 - (id) init {
     
     self = [super init];

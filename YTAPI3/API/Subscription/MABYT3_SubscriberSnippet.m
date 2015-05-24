@@ -12,6 +12,8 @@
 
 @implementation MABYT3_SubscriberSnippet
 
+@synthesize description = _description;
+
 - (id) init {
     
     self = [super init];

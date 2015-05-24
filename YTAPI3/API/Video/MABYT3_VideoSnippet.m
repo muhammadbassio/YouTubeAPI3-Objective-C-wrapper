@@ -10,6 +10,8 @@
 
 @implementation MABYT3_VideoSnippet
 
+@synthesize description = _description;
+
 - (id) init {
     
     self = [super init];
